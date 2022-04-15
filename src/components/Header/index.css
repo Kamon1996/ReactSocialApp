@@ -1,0 +1,21 @@
+.header {
+  height: 48px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #dadada;
+}
+
+.header .wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

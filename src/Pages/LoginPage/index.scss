@@ -1,0 +1,26 @@
+.login-form-wrapper {
+  padding: 15px;
+  background: #fff;
+  border-radius: 6px;
+  margin: 0 auto;
+
+  .row {
+    gap: 15px;
+    margin-bottom: 10px;
+    & > * {
+      flex: 1 1 50%;
+    }
+    input {
+      transition: 0.3s;
+      border-radius: 6px;
+      padding: 5px;
+      &:focus {
+        box-shadow: 0px 0px 4px 1px rgb(123, 218, 255);
+        &::placeholder {
+          transition: 0.3s;
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+}

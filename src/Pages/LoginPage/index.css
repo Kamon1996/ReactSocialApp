@@ -1,0 +1,30 @@
+.login-form-wrapper {
+  padding: 15px;
+  background: #fff;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.login-form-wrapper .row {
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.login-form-wrapper .row > * {
+  flex: 1 1 50%;
+}
+
+.login-form-wrapper .row input {
+  transition: 0.3s;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.login-form-wrapper .row input:focus {
+  box-shadow: 0px 0px 4px 1px #7bdaff;
+}
+
+.login-form-wrapper .row input:focus::placeholder {
+  transition: 0.3s;
+  opacity: 0.3;
+}

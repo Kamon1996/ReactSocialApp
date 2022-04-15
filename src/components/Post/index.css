@@ -1,0 +1,98 @@
+.post-item {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 15px;
+  height: 100%;
+  flex: 1 1;
+}
+
+.post-item-header {
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.post-item-header .small-avatar {
+  background-image: url(./profileImg.jpg);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.post-item-header .header-info {
+  flex: 1 1 70%;
+}
+
+.post-item-header .header-info h4 {
+  margin-bottom: 5px;
+}
+
+.post-item-header i {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 3;
+  display: block;
+}
+
+.post-item-header i:hover .pop-up__wrapper {
+  display: block;
+  opacity: 1;
+}
+
+.post-item-header i .pop-up__wrapper {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  padding: 10px 0px;
+  right: 0;
+  top: 100%;
+  box-shadow: 0px 0px 3px 0px #cacaca;
+  border-radius: 5px;
+  z-index: 20;
+}
+
+.post-item-header i .pop-up__wrapper .btn-nice {
+  background: #fff;
+  white-space: nowrap;
+  border-radius: 0px;
+  transition: 0.3s;
+  color: #000;
+  display: block;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.post-item-header i .pop-up__wrapper .btn-nice:hover {
+  background: #f1f1f1;
+}
+
+.post-item .comments .btn-nice {
+  background: #f3faff;
+  width: 100%;
+  color: #000;
+  transition: 0.3s;
+}
+
+.post-item .comments .btn-nice:hover {
+  background: #d3edff;
+}
+
+.post-item .post-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.post-item .post-text {
+  margin-bottom: 15px;
+}
+
+.post-item .post-action-buttons {
+  gap: 15px;
+}
+
+.post-item .btn-edit {
+  margin-bottom: 15px;
+}

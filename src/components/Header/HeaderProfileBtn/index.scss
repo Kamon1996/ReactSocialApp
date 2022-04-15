@@ -1,0 +1,50 @@
+.header-profile-nav {
+  position: relative;
+  &:hover .pop-up-list {
+    display: block;
+  }
+
+  .profile-nav-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: rgb(231, 231, 231);
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      background-image: url(./profileImg.jpg);
+      background-size: cover;
+    }
+  }
+
+  .pop-up-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #ffb8b8;
+
+    li > a {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      & > i {
+      }
+      & > span {
+        font-size: 14px;
+      }
+    }
+  }
+}

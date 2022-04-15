@@ -1,0 +1,57 @@
+.comment-item {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.comment-item-avatar {
+  margin-top: 10px;
+  flex: 0 0 34px;
+  height: 34px;
+  width: 34px;
+  background-color: #dadada;
+  border-radius: 50%;
+}
+
+.comment-item-body {
+  border-top: 1px solid #dadada;
+  padding: 10px 0;
+  flex: 0 0 90%;
+}
+
+.comment-item-body .comment-header {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.comment-item-body .comment-header .comment-buttons {
+  transition: all 0.3s;
+  gap: 10px;
+  opacity: 0;
+}
+
+.comment-item-body .comment-header .comment-buttons button {
+  background: transparent;
+}
+
+.comment-item-body .comment-header .comment-buttons button i {
+  transition: 0.3s;
+  color: #c5c5c5;
+  font-size: 14px;
+}
+
+.comment-item-body .comment-header .comment-buttons button i:hover {
+  color: #000000;
+}
+
+.comment-item-body .author {
+  margin-bottom: 10px;
+}
+
+.comment-item-body .text {
+  margin-bottom: 10px;
+}
+
+.comment-item:hover .comment-buttons {
+  opacity: 1;
+}

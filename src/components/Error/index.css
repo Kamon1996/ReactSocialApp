@@ -1,0 +1,12 @@
+.alert {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 30px;
+  font-size: 18px;
+  border-radius: 7px;
+  color: white;
+  z-index: 999;
+}

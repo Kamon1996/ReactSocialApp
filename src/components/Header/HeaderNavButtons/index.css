@@ -1,0 +1,16 @@
+.header-enter-btns {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-enter-btns a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.header-enter-btns a p {
+  font-size: 18px;
+}

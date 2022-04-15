@@ -1,0 +1,14 @@
+.header-enter-btns {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    p {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.btn {
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+.btn-nice {
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.red {
+  background-color: #e47979;
+}
+.blue {
+  background-color: #5181b8;
+}
+
+.btn-news-nav {
+  background: transparent;
+  padding: 10px 0px;
+  border-bottom: 2px solid rgba(31, 203, 255, 0);
+}
+.btn-news-active {
+  border-bottom: 2px solid rgba(31, 203, 255, 1);
+}
+
+.action-btn {
+  background-color: rgb(241, 241, 241);
+  padding: 10px;
+  border-radius: 17px;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    opacity: 1;
+    background-color: rgb(221, 221, 221);
+  }
+  i {
+    transition: 0.2s;
+    color: rgb(134, 134, 134);
+    opacity: 0.6;
+  }
+}
+
+.like-btn:hover {
+  i {
+    opacity: 1;
+    color: rgb(247, 110, 110);
+  }
+}
+
+.comment-btn:hover {
+  i {
+    opacity: 1;
+    color: rgb(238, 196, 79);
+  }
+}
+
+.repost-btn:hover {
+  i {
+    opacity: 1;
+    color: rgb(118, 149, 250);
+  }
+}

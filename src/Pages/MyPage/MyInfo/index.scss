@@ -1,0 +1,46 @@
+.news {
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.info-block {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  .row {
+    & > * {
+      flex: 1 1 50%;
+    }
+  }
+}
+
+.my-info {
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #fff;
+
+  &-header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dadada;
+    h3 {
+      margin-bottom: 5px;
+    }
+    h5 {
+    }
+  }
+  button.more-info {
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #dadada;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.input-add-comment-wrapper {
+  padding: 10px 0;
+  display: flex;
+  gap: 15px;
+}
+
+.input-add-comment-wrapper .mini-avatar {
+  margin-top: 10px;
+  background-image: url(../profileImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+}
+
+.input-add-comment-wrapper form {
+  display: flex;
+  gap: 15px;
+  flex: 1 1 auto;
+}
+
+.input-add-comment-wrapper form .input-add-comment {
+  padding: 7px 13px;
+  border: 1px solid #d3d9de;
+  border-radius: 6px;
+  flex: 1 1 auto;
+  font-size: 14px;
+  resize: none;
+}
+
+.input-add-comment-wrapper form button {
+  display: contents;
+}
+
+.input-add-comment-wrapper form button i {
+  display: inline-table;
+  font-size: 16px;
+  padding: 10px;
+}

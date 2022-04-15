@@ -1,0 +1,16 @@
+.nav-side {
+  position: sticky;
+  flex: 0 0 30%;
+}
+
+.nav-side ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-side ul li > a {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

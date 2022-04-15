@@ -1,0 +1,89 @@
+.post-item {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 15px;
+  height: 100%;
+  flex: 1 1;
+
+  &-header {
+    gap: 15px;
+    margin-bottom: 15px;
+    .small-avatar {
+      background-image: url(./profileImg.jpg);
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .header-info {
+      flex: 1 1 70%;
+      h4 {
+        margin-bottom: 5px;
+      }
+    }
+    i {
+      position: relative;
+      cursor: pointer;
+      padding: 10px;
+      z-index: 3;
+      display: block;
+      &:hover .pop-up__wrapper {
+        display: block;
+        opacity: 1;
+      }
+      .pop-up__wrapper {
+        position: absolute;
+        display: none;
+        opacity: 0;
+        padding: 10px 0px;
+        right: 0;
+        top: 100%;
+        box-shadow: 0px 0px 3px 0px #cacaca;
+        border-radius: 5px;
+        z-index: 20;
+        .btn-nice {
+          background: #fff;
+          white-space: nowrap;
+          border-radius: 0px;
+          transition: 0.3s;
+          color: #000;
+          display: block;
+          font-weight: 400;
+          font-family: sans-serif;
+          &:hover {
+            background: #f1f1f1;
+          }
+        }
+      }
+    }
+  }
+
+  .comments {
+    .btn-nice {
+      background: #f3faff;
+      width: 100%;
+      color: #000;
+      transition: 0.3s;
+      &:hover {
+        background: #d3edff;
+      }
+    }
+  }
+  .post-title {
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .post-text {
+    margin-bottom: 15px;
+  }
+  .post-action-buttons {
+    gap: 15px;
+  }
+
+  .btn-edit {
+    margin-bottom: 15px;
+  }
+}

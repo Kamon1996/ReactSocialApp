@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700&display=swap");
+html,
+body {
+  color: #000;
+  background: #fff;
+  height: 100%;
+  background-color: #edeef0;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%;
+}
+
+legend {
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+.btn-nice {
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.red {
+  background-color: #e47979;
+}
+
+.blue {
+  background-color: #5181b8;
+}
+
+.btn-news-nav {
+  background: transparent;
+  padding: 10px 0px;
+  border-bottom: 2px solid rgba(31, 203, 255, 0);
+}
+
+.btn-news-active {
+  border-bottom: 2px solid #1fcbff;
+}
+
+.action-btn {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 17px;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.action-btn:hover {
+  opacity: 1;
+  background-color: #dddddd;
+}
+
+.action-btn i {
+  transition: 0.2s;
+  color: #868686;
+  opacity: 0.6;
+}
+
+.like-btn:hover i {
+  opacity: 1;
+  color: #f76e6e;
+}
+
+.comment-btn:hover i {
+  opacity: 1;
+  color: #eec44f;
+}
+
+.repost-btn:hover i {
+  opacity: 1;
+  color: #7695fa;
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 110%;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 110%;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 110%;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 110%;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+p {
+  font-size: 12px;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 990px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
