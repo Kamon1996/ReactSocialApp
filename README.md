@@ -8,4 +8,10 @@
 
 # Hope you will enjoy using it!
 
-![img social app](https://i.ibb.co/X23fWzd/socapp.png)
+## News Page 
+
+![img social app](https://i.ibb.co/R7pZ1CX/socialappnews.png)
+
+## My Page 
+
+![img social app](https://i.ibb.co/606rxfZ/socappmypage.png)
