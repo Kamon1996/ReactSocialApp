@@ -1,6 +1,6 @@
 # This is my first test project on React
 
-## This is the socialApp, where:
+## Welcome to my socialApp! Where:
 
 - You can create your own accaounts
 - Make posts
