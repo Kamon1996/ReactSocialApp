@@ -1,4 +1,4 @@
-# This is my first test project on React
+# First test project on React
 
 ## Welcome to my socialApp! Where:
 
